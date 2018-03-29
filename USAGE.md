@@ -428,7 +428,7 @@ Documentation for JSON-RPC commands can be found here:
 Curl can be used to use the JSON-RPC commands from command-line. Here is an example of calling `getblockheaderbyheight` for block 100:
 
 ```bash
-curl 127.0.0.1:18081/json_rpc -d '{"method":"getblockheaderbyheight","params":{"height":100}}'
+curl 127.0.0.1:22023/json_rpc -d '{"method":"getblockheaderbyheight","params":{"height":100}}'
 ```
 
 
